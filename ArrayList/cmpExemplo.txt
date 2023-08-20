@@ -1,0 +1,22 @@
+Iniciando testes para o AddPos direto:
+
+D:\Marcos\Documents\Projetos\aed\ArrayList>testeCache\testeDireto.exe
+Recorde para  10  elementos, direto:  0
+Recorde para  100  elementos, direto:  0
+Recorde para  1000  elementos, direto:  0
+Recorde para  10000  elementos, direto:  0
+Recorde para  100000  elementos, direto:  0
+Recorde para  1e+06  elementos, direto:  923
+Recorde para  1e+07  elementos, direto:  19058
+Recorde para  1e+08  elementos, direto:  203825
+Iniciando testes para o AddPos reverso:
+
+D:\Marcos\Documents\Projetos\aed\ArrayList>testeCache\testeReverso.exe
+Recorde para  10  elementos, reverso:  0
+Recorde para  100  elementos, reverso:  0
+Recorde para  1000  elementos, reverso:  0
+Recorde para  10000  elementos, reverso:  0
+Recorde para  100000  elementos, reverso:  0
+Recorde para  1e+06  elementos, reverso:  996
+Recorde para  1e+07  elementos, reverso:  19625
+Recorde para  1e+08  elementos, reverso:  231805
