@@ -2,11 +2,11 @@
 
 ## ArrayList — Tempo de Cache
 
-A comparação entre ordens de acesso a elementos pode ser feita através do script compacarao.bat (somente Windows), que pode ser checado via [aqui](linkdogit).
+A comparação entre ordens de acesso a elementos pode ser feita através do script compacarao.bat (somente Windows), que pode ser checado [aqui](https://github.com/Marcos7765/AEDI/blob/master/ArrayList/comparacao.bat).
 
 ### Por que haveria diferença?
 
-A diferença de tempo entre os resultados dá-se pelo melhor aproveitamento do [cache](pt.wikipedia.org/wiki/Cache_do_processador) quando se percorre a lista diretamente. Este ganho não é garantido para qualquer tipo de estrutura e poderia ser afetado pela estratégia de cache do processador, sendo sequer garantido este ganho para listas como um todo.
+A diferença de tempo entre os resultados dá-se pelo melhor aproveitamento do [cache](https://pt.wikipedia.org/wiki/Cache_do_processador) quando se percorre a lista diretamente. Este ganho não é garantido para qualquer tipo de estrutura e poderia ser afetado pela estratégia de cache do processador, sendo sequer garantido este ganho para listas como um todo.
 
 Como a ArrayList guarda seus valores numa espécie de _array_, os dados são dispostos continuamente na memória. Uma estratégia comum de cache é, ao trazer os dados de uma posição de memória para o processador, aproveitar a 'viagem' para trazer também dados na proximos ao dado lido, devido às chances desses dados serem requiridos futuramente.
 
