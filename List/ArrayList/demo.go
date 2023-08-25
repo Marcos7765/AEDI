@@ -1,4 +1,4 @@
-package lista
+package ArrayList
 
 import (
 	"fmt"

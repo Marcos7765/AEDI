@@ -1,6 +1,6 @@
 //go:build direto
 
-package lista
+package ArrayList
 
 import (
 	"errors"
